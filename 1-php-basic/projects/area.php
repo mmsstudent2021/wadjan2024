@@ -86,20 +86,25 @@
 
             <hr class="  border-gray-300 my-4">
 
-            <form action="./area.php" method="post">
-                <div class=" mb-4">
-                    <label for="home_width" class="block text-sm font-medium mb-2 dark:text-white">Home Width</label>
-                    <input type="number" name="home_width" id="home_width" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600">
-                </div>
-                <div class=" mb-6">
-                    <label for="home_breadth" class="block text-sm font-medium mb-2 dark:text-white">Home Breadth</label>
-                    <input type="number" name="home_breadth" id="home_breadth" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600">
-                </div>
-                <button type="submit" class=" w-full  py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                    Calculate
-                </button>
+            <?php
 
-            </form>
+
+            $width = $_POST["home_width"];
+            $breadth = $_POST["home_breadth"];
+
+            $area = $width * $breadth;
+
+
+            ?>
+
+            <p class=" text-5xl text-center my-10">
+
+                <?= $area ?> Sqft
+            </p>
+
+            <a href="./index.php" class=" w-full justify-center py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                Calculate Again
+            </a>
 
         </section>
 
