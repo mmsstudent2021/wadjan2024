@@ -3,6 +3,7 @@ module.exports = {
   darkMode: "class",
   content: [
     "./*.php",
+    "./template/*.php",
     // "./src/**/*.{html,js}",
     "node_modules/preline/dist/*.js",
   ],
