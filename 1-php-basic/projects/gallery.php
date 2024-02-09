@@ -23,7 +23,12 @@ $photos = array_filter(scandir("photos"), fn ($el) => $el != "." && $el != "..")
 ?>
 <section class=" columns-3 gap-3 mt-5">
     <?php foreach ($photos as $photo) : ?>
-        <img class=" mb-3 rounded-lg" src="photos/<?= $photo ?>" alt="">
+        <div class=" inline-block relative group mb-3">
+            <img class="  rounded-lg" src="photos/<?= $photo ?>" alt="">
+            <a onclick="return confirm('Are U sure to delete?')"  href="./gallery-photo-delete.php?file_name=<?= $photo ?>" class="py-3 px-4 hidden pointer-events-none absolute bottom-0 right-0 group-hover:inline-flex group-hover:pointer-events-auto items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-100 text-red-800 hover:bg-red-200 disabled:opacity-50 disabled:pointer-events-none dark:hover:bg-red-900 dark:text-red-500 dark:hover:text-red-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                Delete
+            </a>
+        </div>
     <?php endforeach ?>
 </section>
 <?php include("./template/footer.php"); ?>
