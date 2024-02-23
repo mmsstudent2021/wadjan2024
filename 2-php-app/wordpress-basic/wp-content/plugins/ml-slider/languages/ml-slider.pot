@@ -1,0 +1,2762 @@
+# Copyright (C) 2024 MetaSlider
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: MetaSlider 3.60.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-05T18:04:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: ml-slider\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "MetaSlider"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.metaslider.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "MetaSlider gives you the power to create a beautiful slideshow, carousel, or gallery on your WordPress site."
+msgstr ""
+
+#: admin/Notices.php:95
+msgctxt "Keep the plugin name \"MetaSlider\" when possible"
+msgid "Like MetaSlider? Please help us by giving a positive review at WordPress.org"
+msgstr ""
+
+#: admin/Notices.php:105
+msgid "Spice up your site with animated layers and video slides with MetaSlider Pro"
+msgstr ""
+
+#: admin/Notices.php:116
+msgid "Increase your revenue and conversion with video slides and many more MetaSlider Pro features"
+msgstr ""
+
+#: admin/Notices.php:127
+msgid "Can you translate? Want to improve MetaSlider for speakers of your language?"
+msgstr ""
+
+#: admin/Notices.php:317
+msgid "weeks"
+msgstr ""
+
+#: admin/Notices.php:337
+msgid "Let's Start &rarr;"
+msgstr ""
+
+#: admin/Notices.php:338
+msgctxt "Keep the plugin name \"MetaSlider\" when possible"
+msgid "Review MetaSlider &rarr;"
+msgstr ""
+
+#: admin/Notices.php:339
+msgid "Find out more &rarr;"
+msgstr ""
+
+#: admin/Notices.php:340
+msgid "Get MetaSlider Pro &rarr;"
+msgstr ""
+
+#: admin/Notices.php:341
+msgid "Sign up &rarr;"
+msgstr ""
+
+#: admin/Notices.php:342
+msgid "Go there &rarr;"
+msgstr ""
+
+#: admin/Notices.php:344
+msgid "Read more"
+msgstr ""
+
+#: admin/Notices.php:358
+#: admin/support/Analytics.php:66
+#: inc/slide/metaslide.class.php:141
+#: inc/slide/metaslide.image.class.php:123
+#: inc/slide/metaslide.image.class.php:227
+#: ml-slider.php:789
+#: ml-slider.php:871
+#: ml-slider.php:983
+#: ml-slider.php:2327
+#: ml-slider.php:2368
+msgid "The security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: admin/Notices.php:366
+#: inc/slide/metaslide.class.php:149
+#: inc/slide/metaslide.image.class.php:131
+#: inc/slide/metaslide.image.class.php:150
+#: inc/slide/metaslide.image.class.php:235
+#: ml-slider.php:797
+#: ml-slider.php:879
+#: ml-slider.php:991
+#: ml-slider.php:2335
+#: ml-slider.php:2376
+msgid "Access denied"
+msgstr ""
+
+#: admin/Notices.php:374
+#: inc/slide/metaslide.class.php:158
+#: inc/slide/metaslide.image.class.php:140
+#: inc/slide/metaslide.image.class.php:244
+#: ml-slider.php:806
+#: ml-slider.php:888
+#: ml-slider.php:1000
+#: ml-slider.php:2344
+#: ml-slider.php:2385
+msgid "Bad request"
+msgstr ""
+
+#: admin/Notices.php:382
+msgid "This item does not exist. Please refresh the page and try again."
+msgstr ""
+
+#: admin/Notices.php:395
+msgid "The option was successfully updated"
+msgstr ""
+
+#: admin/Notices.php:461
+msgid "The requested data does not exist."
+msgstr ""
+
+#: admin/Notices.php:486
+msgid "The attempt to update the option failed."
+msgstr ""
+
+#: admin/Pages.php:75
+msgid "URL"
+msgstr ""
+
+#: admin/Pages.php:76
+#: admin/assets/dist/js/app.js:2
+msgid "Caption"
+msgstr ""
+
+#: admin/Pages.php:77
+msgid "New Window"
+msgstr ""
+
+#: admin/Pages.php:78
+msgid "Please confirm that you would like to delete this slideshow."
+msgstr ""
+
+#: admin/Pages.php:79
+msgid "Undo"
+msgstr ""
+
+#: admin/Pages.php:80
+msgid "Slide restored"
+msgstr ""
+
+#: admin/Pages.php:81
+msgid "Slide deleted"
+msgstr ""
+
+#: admin/Pages.php:82
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:105
+msgid "Success"
+msgstr ""
+
+#: admin/Pages.php:83
+msgid "Item was copied to your clipboard"
+msgstr ""
+
+#: admin/Pages.php:84
+msgid "Press to undo"
+msgstr ""
+
+#: admin/Pages.php:86
+msgid "Select replacement image"
+msgstr ""
+
+#: admin/Pages.php:95
+msgid "Caution: This setting is for advanced developers only. If you're unsure, leave it checked."
+msgstr ""
+
+#: admin/routes/api.php:132
+msgid "You do not have access to this resource."
+msgstr ""
+
+#: admin/routes/api.php:412
+msgid "The request format was not valid."
+msgstr ""
+
+#: admin/routes/api.php:420
+#: admin/routes/api.php:542
+msgid "This slideshow is no longer available."
+msgstr ""
+
+#: admin/routes/api.php:507
+msgid "Nothing to import."
+msgstr ""
+
+#: admin/routes/api.php:549
+msgid "This was not a slideshow, so we cannot delete it."
+msgstr ""
+
+#: admin/routes/api.php:741
+msgid "This was not a slideshow, so we cannot update the setting."
+msgstr ""
+
+#: admin/routes/api.php:850
+msgid "The title cannot be empty."
+msgstr ""
+
+#: admin/routes/api.php:854
+msgid "The field (%s) cannot be empty"
+msgstr ""
+
+#: admin/slideshows/Image.php:145
+msgid "We could not find any images to import."
+msgstr ""
+
+#: admin/slideshows/Settings.php:59
+msgid "New Slideshow"
+msgstr ""
+
+#: admin/slideshows/Settings.php:82
+#: inc/slider/metaslider.class.php:120
+msgid "Previous"
+msgstr ""
+
+#: admin/slideshows/Settings.php:83
+#: inc/slider/metaslider.class.php:121
+msgid "Next"
+msgstr ""
+
+#: admin/slideshows/Themes.php:60
+msgid "No themes found."
+msgstr ""
+
+#: admin/slideshows/Themes.php:270
+msgid "We removed your selected theme as it could not be found. Was the folder deleted?"
+msgstr ""
+
+#: admin/Table.php:38
+msgid "You don't have any slideshows yet. Click %shere%s to create a new slideshow."
+msgstr ""
+
+#: admin/Table.php:55
+msgid "Published"
+msgstr ""
+
+#: admin/Table.php:59
+#: admin/Table.php:87
+#: admin/Table.php:339
+msgid "Trash"
+msgstr ""
+
+#: admin/Table.php:69
+#: admin/views/pages/parts/toolbar.php:44
+#: admin/assets/dist/js/app.js:2
+msgid "Preview"
+msgstr ""
+
+#: admin/Table.php:70
+#: admin/assets/dist/js/app.js:2
+msgid "Title"
+msgstr ""
+
+#: admin/Table.php:71
+msgid "Created"
+msgstr ""
+
+#: admin/Table.php:72
+#: admin/views/pages/parts/slider-settings-legacy.php:720
+#: admin/views/pages/parts/slider-settings.php:547
+msgid "Shortcode"
+msgstr ""
+
+#: admin/Table.php:82
+#: admin/Table.php:324
+#: inc/slide/metaslide.class.php:407
+msgid "Restore"
+msgstr ""
+
+#: admin/Table.php:83
+#: admin/Table.php:325
+#: inc/slide/metaslide.class.php:417
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/Table.php:131
+msgid "Click to copy shortcode."
+msgstr ""
+
+#: admin/Table.php:338
+msgid "Edit"
+msgstr ""
+
+#: admin/views/notices/header-notice.php:8
+msgid "Logo"
+msgstr ""
+
+#: admin/views/notices/header-notice.php:21
+msgid "Dismiss"
+msgstr ""
+
+#: admin/views/pages/dashboard.php:8
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshows"
+msgstr ""
+
+#: admin/views/pages/dashboard.php:8
+msgid "Add New"
+msgstr ""
+
+#: admin/views/pages/dashboard.php:36
+msgid "Search"
+msgstr ""
+
+#: admin/views/pages/parts/ie-warning.php:4
+msgid "Browser upgrade required"
+msgstr ""
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "It looks like you are using %s. While MetaSlider does support %s on the frontend of the website where users see your slideshows, some of the tools we provide back here require a modern browser."
+msgstr ""
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "Microsoft Internet Explorer 11"
+msgstr ""
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "IE11"
+msgstr ""
+
+#: admin/views/pages/parts/ie-warning.php:12
+msgid "Update Internet Explorer"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:20
+#: admin/views/pages/parts/slider-settings.php:24
+msgid "Main Options"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:30
+#: admin/views/pages/parts/slider-settings-legacy.php:508
+#: admin/views/pages/parts/slider-settings.php:34
+msgid "Width"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:32
+#: admin/views/pages/parts/slider-settings.php:36
+#: admin/assets/js/gutenberg/components/block-edit.js:57
+#: admin/assets/js/gutenberg/components/block-edit.js:82
+msgid "Slideshow width"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:33
+#: admin/views/pages/parts/slider-settings-legacy.php:46
+#: admin/views/pages/parts/slider-settings-legacy.php:365
+#: admin/views/pages/parts/slider-settings.php:37
+#: admin/views/pages/parts/slider-settings.php:50
+#: admin/views/pages/parts/slider-settings.php:294
+msgid "px"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:43
+#: admin/views/pages/parts/slider-settings-legacy.php:524
+#: admin/views/pages/parts/slider-settings.php:47
+msgid "Height"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:45
+#: admin/views/pages/parts/slider-settings.php:49
+msgid "Slideshow height"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:52
+#: admin/views/pages/parts/slider-settings.php:56
+msgid "Effect"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:54
+#: admin/views/pages/parts/slider-settings.php:58
+msgid "Slide transition effect"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:64
+#: admin/views/pages/parts/slider-settings-legacy.php:383
+#: admin/views/pages/parts/slider-settings.php:312
+msgid "Random"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:68
+msgid "Swirl"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:72
+msgid "Rain"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:76
+msgid "Straight"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:80
+msgid "Slice Down"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:84
+msgid "Slice Up"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:88
+msgid "Slice Up Left"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:92
+msgid "Slide Up Down"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:96
+msgid "Slice Up Down Left"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:100
+#: admin/views/pages/parts/slider-settings.php:68
+msgid "Fade"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:104
+msgid "Fold"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:108
+msgid "Slide in Right"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:112
+msgid "Slide in Left"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:116
+msgid "Box Random"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:120
+msgid "Box Rain"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:124
+msgid "Box Rain Reverse"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:128
+msgid "Box Rain Grow"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:132
+msgid "Box Rain Grow Reverse"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:136
+#: admin/views/pages/parts/slider-settings.php:72
+msgid "Slide"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:143
+#: admin/views/pages/parts/slider-settings.php:79
+msgid "Arrows"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:148
+#: admin/views/pages/parts/slider-settings.php:84
+msgid "Show the previous/next arrows"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:166
+#: admin/views/pages/parts/slider-settings.php:102
+msgid "Navigation"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:169
+#: admin/views/pages/parts/slider-settings.php:105
+msgid "Show the slide navigation bullets"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:175
+#: admin/views/pages/parts/slider-settings.php:111
+msgid "Hidden"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:178
+#: admin/views/pages/parts/slider-settings.php:114
+msgid "Dots"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:181
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:185
+msgid "Filmstrip"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:193
+#: admin/views/pages/parts/slider-settings.php:129
+msgid "100% width"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:198
+#: admin/views/pages/parts/slider-settings.php:134
+msgid "Stretch the slideshow output to fill it's parent container"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:220
+#: admin/views/pages/parts/slider-settings.php:150
+msgid "Theme"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:244
+#: admin/views/pages/parts/slider-settings.php:173
+msgid "Advanced Options"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:249
+#: admin/views/pages/parts/slider-settings.php:178
+msgid "Center align"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:254
+#: admin/views/pages/parts/slider-settings.php:183
+msgid "Center align the slideshow"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:262
+#: admin/views/pages/parts/slider-settings.php:191
+msgid "Auto play"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:267
+#: admin/views/pages/parts/slider-settings.php:196
+msgid "Transition between slides automatically"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:275
+#: admin/views/pages/parts/slider-settings.php:204
+msgid "Loop"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:277
+#: admin/views/pages/parts/slider-settings.php:206
+msgid "Configure loop"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:280
+#: admin/views/pages/parts/slider-settings.php:209
+msgid "Continuously"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:281
+#: admin/views/pages/parts/slider-settings.php:210
+msgid "Stop on Last Slide"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:282
+#: admin/views/pages/parts/slider-settings.php:211
+msgid "Stop on First Slide"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:288
+#: admin/views/pages/parts/slider-settings.php:217
+msgid "Image Crop"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:293
+#: admin/views/pages/parts/slider-settings.php:222
+msgid "Smart Crop"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:300
+#: admin/views/pages/parts/slider-settings.php:229
+msgid "Standard"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:307
+#: admin/views/pages/parts/slider-settings.php:236
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:314
+#: admin/views/pages/parts/slider-settings.php:243
+msgid "Disabled (Smart Pad)"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:321
+#: admin/views/pages/parts/slider-settings.php:250
+msgid "Smart Crop ensures your responsive slides are cropped to a ratio that results in a consistent slideshow size"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:329
+#: admin/views/pages/parts/slider-settings.php:258
+msgid "Smooth Height"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:334
+#: admin/views/pages/parts/slider-settings.php:263
+msgid "Allow navigation to follow the slide's height smoothly"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:342
+#: admin/views/pages/parts/slider-settings.php:271
+msgid "Carousel mode"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:347
+#: admin/views/pages/parts/slider-settings.php:276
+msgid "Display multiple slides at once. Slideshow output will be 100% wide."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:358
+#: admin/views/pages/parts/slider-settings.php:287
+msgid "Carousel margin"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:361
+#: admin/views/pages/parts/slider-settings.php:290
+msgid "Pixel margin between slides in carousel."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:370
+#: admin/views/pages/parts/slider-settings.php:299
+msgid "Fade in"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:375
+#: admin/views/pages/parts/slider-settings.php:304
+msgid "Fade in the first slide"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:388
+#: admin/views/pages/parts/slider-settings.php:317
+msgid "Randomise the order of the slides"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:396
+#: admin/views/pages/parts/slider-settings.php:325
+msgid "Hover pause"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:401
+#: admin/views/pages/parts/slider-settings.php:330
+msgid "Pause the slideshow when hovering over slider, then resume when no longer hovering."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:409
+#: admin/views/pages/parts/slider-settings.php:338
+msgid "Reverse"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:414
+#: admin/views/pages/parts/slider-settings.php:343
+msgid "Reverse the animation direction"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:422
+#: admin/views/pages/parts/slider-settings.php:351
+msgid "Keyboard Controls"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:427
+#: admin/views/pages/parts/slider-settings.php:356
+msgid "Use arrow keys to get to the next slide"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:435
+#: admin/views/pages/parts/slider-settings.php:364
+msgid "Touch Swipe"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:440
+#: admin/views/pages/parts/slider-settings.php:369
+msgid "Allow touch swipe navigation of the slider on touch-enabled devices"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:453
+#: admin/views/pages/parts/slider-settings.php:382
+msgid "Slide delay"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:455
+#: admin/views/pages/parts/slider-settings.php:384
+msgid "How long to display each slide, in milliseconds"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:459
+#: admin/views/pages/parts/slider-settings-legacy.php:479
+#: admin/views/pages/parts/slider-settings-legacy.php:608
+#: admin/views/pages/parts/slider-settings-legacy.php:640
+#: admin/views/pages/parts/slider-settings.php:388
+#: admin/views/pages/parts/slider-settings.php:408
+msgctxt "Short for milliseconds"
+msgid "ms"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:473
+#: admin/views/pages/parts/slider-settings.php:402
+msgid "Animation speed"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:475
+#: admin/views/pages/parts/slider-settings.php:404
+msgid "Choose the speed of the animation in milliseconds. You can select the animation in the \"Effect\" field."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:493
+#: admin/views/pages/parts/slider-settings-legacy.php:495
+msgid "Number of slices"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:505
+#: admin/views/pages/parts/slider-settings-legacy.php:510
+#: admin/views/pages/parts/slider-settings-legacy.php:521
+#: admin/views/pages/parts/slider-settings-legacy.php:526
+msgid "Number of squares"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:532
+#: admin/views/pages/parts/slider-settings.php:417
+msgid "Slide direction"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:534
+#: admin/views/pages/parts/slider-settings.php:419
+msgid "Select the sliding direction"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:541
+#: admin/views/pages/parts/slider-settings.php:426
+msgid "Horizontal"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:548
+#: admin/views/pages/parts/slider-settings.php:433
+msgid "Vertical"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:559
+#: admin/views/pages/parts/slider-settings.php:444
+msgid "Easing"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:561
+#: admin/views/pages/parts/slider-settings.php:446
+msgid "Easing enhances the motion dynamics during transitions and is exclusively accessible when the 'Slide' transition setting is chosen."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:571
+#: admin/views/pages/parts/slider-settings.php:456
+msgid "Previous text"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:573
+#: admin/views/pages/parts/slider-settings.php:458
+msgid "Set the text for the 'previous' direction item"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:584
+#: admin/views/pages/parts/slider-settings.php:469
+msgid "Next text"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:586
+#: admin/views/pages/parts/slider-settings.php:471
+msgid "Set the text for the 'next' direction item"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:602
+msgid "Square delay"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:604
+msgid "Delay between squares in ms"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:618
+msgid "Opacity"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:620
+msgid "Opacity of title and navigation, between 0 and 1"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:634
+msgid "Caption speed"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:636
+msgid "Set the fade in speed of the caption"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:649
+#: admin/views/pages/parts/slider-settings.php:482
+msgid "Developer Options"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:655
+#: admin/views/pages/parts/slider-settings.php:488
+msgid "CSS classes"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:657
+#: admin/views/pages/parts/slider-settings.php:490
+msgid "Enter custom CSS classes to apply to the slider wrapper. Separate multiple classes with a space."
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:668
+#: admin/views/pages/parts/slider-settings.php:501
+msgid "Print CSS"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:673
+#: admin/views/pages/parts/slider-settings.php:506
+msgid "Uncheck this if you would like to include your own CSS"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:681
+#: admin/views/pages/parts/slider-settings.php:514
+msgid "Print JS"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:686
+#: admin/views/pages/parts/slider-settings.php:519
+msgid "Uncheck this if you would like to include your own Javascript"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:694
+#: admin/views/pages/parts/slider-settings.php:527
+msgid "No conflict mode"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:699
+#: admin/views/pages/parts/slider-settings.php:532
+msgid "Delay adding the flexslider class to the slideshow"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:743
+#: admin/views/pages/parts/slider-settings.php:569
+msgid "Trashed slides"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings-legacy.php:765
+#: admin/views/pages/parts/slider-settings.php:579
+msgid "View trashed slides"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings.php:117
+msgid "Thumbnail (Pro)"
+msgstr ""
+
+#: admin/views/pages/parts/slider-settings.php:121
+msgid "Filmstrip (Pro)"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:25
+msgid "Add a new slide"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:29
+msgid "Add Slide"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:35
+msgid "Save & open preview"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:35
+msgctxt "This is a keyboard shortcut."
+msgid " (alt + p)"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:60
+msgid "Add a new slideshow"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:64
+msgid "New"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:69
+msgid "Duplicate this slideshow"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:81
+msgid "Duplicate"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:86
+#: admin/views/pages/upgrade.php:110
+msgid "Add custom CSS"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:86
+msgid "press to learn more"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:90
+msgid "Add CSS"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:100
+msgid "Save slideshow"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:114
+#: admin/assets/dist/js/app.js:2
+msgid "Save"
+msgstr ""
+
+#: admin/views/pages/parts/toolbar.php:125
+#: ml-slider.php:1688
+msgid "Return to Published Slides"
+msgstr ""
+
+#: admin/views/pages/settings.php:42
+msgid "Settings"
+msgstr ""
+
+#: admin/views/pages/settings.php:58
+#: admin/assets/dist/js/app.js:2
+msgid "Help Center"
+msgstr ""
+
+#: admin/views/pages/settings.php:74
+#: admin/assets/dist/js/app.js:2
+msgid "Import"
+msgstr ""
+
+#: admin/views/pages/settings.php:89
+#: admin/assets/dist/js/app.js:2
+msgid "Export"
+msgstr ""
+
+#: admin/views/pages/start.php:6
+msgid "Thanks for using MetaSlider, the WordPress slideshow plugin"
+msgstr ""
+
+#: admin/views/pages/start.php:12
+msgid "Create a slideshow with your images"
+msgstr ""
+
+#: admin/views/pages/start.php:13
+msgid "Choose your own images to start a new slideshow."
+msgstr ""
+
+#: admin/views/pages/start.php:23
+msgid "Open Media Library"
+msgstr ""
+
+#: admin/views/pages/start.php:38
+msgid "Create a slideshow with sample images"
+msgstr ""
+
+#: admin/views/pages/start.php:39
+msgid "Choose one of our demos with sample images, or a blank slideshow with no images."
+msgstr ""
+
+#: admin/views/pages/start.php:44
+msgid "Blank Slideshow"
+msgstr ""
+
+#: admin/views/pages/start.php:45
+msgid "Image Slideshow"
+msgstr ""
+
+#: admin/views/pages/start.php:46
+msgid "Carousel Slideshow"
+msgstr ""
+
+#: admin/views/pages/start.php:47
+msgid "Carousel Slideshow with Captions"
+msgstr ""
+
+#: admin/views/pages/start.php:49
+msgid "Create a Slideshow"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:13
+msgid "Comparison Chart"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:20
+msgid "Free"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:21
+msgid "Pro"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:25
+#: admin/views/pages/upgrade.php:144
+msgid "Installed"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:26
+#: admin/views/pages/upgrade.php:145
+#: admin/views/slides/tabs/schedule.php:10
+#: admin/assets/dist/js/app.js:2
+msgid "Upgrade now"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:30
+msgid "Create unlimited slideshows"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:31
+msgid "Create and manage as many slideshows as you need."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:38
+msgid "Regular updates"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:39
+msgid "We keep MetaSlider compatible with the latest versions of WordPress."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:46
+msgid "Intelligent image cropping"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:47
+msgid "Unique Smart Crop functionality ensures your slides are perfectly resized."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:54
+msgid "Thumbnail navigation"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:55
+msgid "Allow users to browse your slideshows using thumbnail navigation."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:62
+msgid "Add YouTube and Vimeo slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:63
+msgid "Easily include responsive high definition YouTube and Vimeo videos."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:70
+msgid "Add local video slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:71
+msgid "Create slideshows with videos from your WordPress media library."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:78
+msgid "Add external video slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:79
+msgid "Create slideshows with external videos."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:86
+msgid "Add HTML overlay slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:87
+msgid "Create completely customized HTML slides using the inline editor."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:94
+msgid "Add slide layers"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:95
+msgid "Add layers to your slides with over 50 available transition effects."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:102
+msgid "Add Post Feed slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:103
+msgid "Easily build slides based on your WordPress posts."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:111
+msgid "Customize your slideshows to fit with your website."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:118
+msgid "Schedule your slides"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:119
+msgid "Add a start/end date to individual slides."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:126
+msgid "Toggle your slide's visibility"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:127
+msgid "Hide any slide, without having to delete them."
+msgstr ""
+
+#: admin/views/pages/upgrade.php:134
+msgid "Premium support"
+msgstr ""
+
+#: admin/views/pages/upgrade.php:135
+msgid "Have your specific queries addressed directly by our experts."
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:5
+msgid "Crop Position"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:7
+msgid "Top Left"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:8
+msgid "Top Center"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:9
+msgid "Top Right"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:10
+msgid "Center Left"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:11
+msgid "Center Center"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:12
+msgid "Center Right"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:13
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:14
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/views/slides/tabs/crop.php:15
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/views/slides/tabs/general.php:39
+msgid "Link URL"
+msgstr ""
+
+#: admin/views/slides/tabs/general.php:49
+msgid "New window"
+msgstr ""
+
+#: admin/views/slides/tabs/general.php:51
+msgid "Open link in a new window"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:27
+msgid "Hide slide on:"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:40
+msgid "When enabled this setting will hide the slide on screen widths equal to or greater than %spx"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:50
+msgid "When enabled this setting will hide the slide on screen widths of %1$spx to %2$spx"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:66
+msgid "Hide caption on:"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:79
+msgid "When enabled this setting will hide the caption on screen widths equal to or greater than %spx"
+msgstr ""
+
+#: admin/views/slides/tabs/mobile.php:89
+msgid "When enabled this setting will hide the caption on screen widths of %1$spx to %2$spx"
+msgstr ""
+
+#: admin/views/slides/tabs/schedule.php:6
+msgid "Update or activate your MetaSlider Pro now to add a start/end date option to your slides"
+msgstr ""
+
+#: admin/views/slides/tabs/schedule.php:8
+msgid "Get MetaSlider Pro"
+msgstr ""
+
+#: admin/views/slides/tabs/schedule.php:9
+msgid "With MetaSlider Pro, you can schedule your slides. You can choose to show your slides on specific dates, days of the week, or times of day."
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:6
+msgid "Image Title Text"
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:8
+msgid "Enable this to inherit the image title"
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:10
+msgid "Use the image title"
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:30
+msgid "Image Alt Text"
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:32
+msgid "Enable this to inherit the image alt text"
+msgstr ""
+
+#: admin/views/slides/tabs/seo.php:34
+msgid "Use the image alt text"
+msgstr ""
+
+#: inc/metaslider.systemcheck.class.php:91
+msgid "Your settings might not be saving properly due to a configuration on your server. %s is currently set to %s, but we recommend a setting of 4000. Please see %s for more information. The php.ini file is being loaded from here: %s"
+msgstr ""
+
+#: inc/metaslider.systemcheck.class.php:94
+msgid "this article"
+msgstr ""
+
+#: inc/metaslider.systemcheck.class.php:208
+msgid "Warning:"
+msgstr ""
+
+#: inc/metaslider.widget.class.php:112
+msgid "Title:"
+msgstr ""
+
+#: inc/metaslider.widget.class.php:115
+msgid "Select Slider:"
+msgstr ""
+
+#: inc/metaslider.widget.class.php:125
+#: ml-slider.php:1830
+#: admin/assets/dist/js/app.js:2
+msgid "No slideshows found"
+msgstr ""
+
+#: inc/slide/metaslide.class.php:94
+msgid "The requested image does not exist. Please try again."
+msgstr ""
+
+#: inc/slide/metaslide.class.php:117
+msgid "The image was successfully updated."
+msgstr ""
+
+#: inc/slide/metaslide.class.php:127
+msgid "There was an error updating the image. Please try again"
+msgstr ""
+
+#: inc/slide/metaslide.class.php:309
+msgid "There was an error while updating the database. Please try again."
+msgstr ""
+
+#: inc/slide/metaslide.class.php:397
+msgid "Trash slide"
+msgstr ""
+
+#: inc/slide/metaslide.class.php:429
+#: inc/slide/metaslide.class.php:672
+#: inc/slide/metaslide.class.php:673
+msgid "Update slide image"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:87
+msgid "This isn't an accepted image. Please try again."
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:316
+msgid "Image Slide"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:390
+msgid "Warning: The image data does not exist. Please re-upload the image."
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:403
+msgid "General"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:407
+msgid "SEO"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:423
+msgid "Mobile"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:440
+msgid "Crop"
+msgstr ""
+
+#: inc/slide/metaslide.image.class.php:452
+msgid "Schedule"
+msgstr ""
+
+#: inc/slider/metaslider.class.php:269
+msgid "Edit Slideshow"
+msgstr ""
+
+#: ml-slider.php:246
+msgid "MetaSlider Pro is installed but is out of date. You may update it %shere%s. Learn more about this notice %shere%s"
+msgstr ""
+
+#: ml-slider.php:466
+msgid "Home"
+msgstr ""
+
+#: ml-slider.php:467
+msgid "Quick Start"
+msgstr ""
+
+#: ml-slider.php:468
+msgid "Settings & Help"
+msgstr ""
+
+#: ml-slider.php:471
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ml-slider.php:508
+#: ml-slider.php:511
+msgid "All Slideshows"
+msgstr ""
+
+#: ml-slider.php:519
+#: ml-slider.php:522
+msgid "Create Slideshow"
+msgstr ""
+
+#: ml-slider.php:649
+msgid "Image"
+msgstr ""
+
+#: ml-slider.php:650
+msgid "Add to slideshow"
+msgstr ""
+
+#: ml-slider.php:690
+msgid "Post Feed"
+msgstr ""
+
+#: ml-slider.php:691
+msgid "Vimeo"
+msgstr ""
+
+#: ml-slider.php:692
+msgid "YouTube"
+msgstr ""
+
+#: ml-slider.php:693
+msgid "Layer Slide"
+msgstr ""
+
+#: ml-slider.php:694
+msgid "External URL"
+msgstr ""
+
+#: ml-slider.php:695
+msgid "Local Video"
+msgstr ""
+
+#: ml-slider.php:696
+msgid "External Video"
+msgstr ""
+
+#: ml-slider.php:821
+msgid "The slide was successfully restored"
+msgstr ""
+
+#: ml-slider.php:844
+msgid "The attempt to restore the slide failed."
+msgstr ""
+
+#: ml-slider.php:903
+msgid "The slide was successfully trashed"
+msgstr ""
+
+#: ml-slider.php:1015
+msgid "The slide was permanently deleted"
+msgstr ""
+
+#: ml-slider.php:1632
+msgid "Trashed Slides"
+msgstr ""
+
+#: ml-slider.php:1678
+msgid "You are viewing slides that have been trashed, which will be automatically deleted in %s days."
+msgstr ""
+
+#: ml-slider.php:1732
+msgid "Move slideshow to trash"
+msgstr ""
+
+#: ml-slider.php:1779
+msgid "Add slideshow"
+msgstr ""
+
+#: ml-slider.php:1809
+msgctxt "Keep the plugin name \"MetaSlider\" when possible"
+msgid "Select slideshow to insert into post"
+msgstr ""
+
+#: ml-slider.php:1815
+msgid "Choose slideshow"
+msgstr ""
+
+#: ml-slider.php:1825
+msgid "Insert slideshow"
+msgstr ""
+
+#: ml-slider.php:1860
+msgid "Create slides by adding text, videos and more to your images"
+msgstr ""
+
+#: ml-slider.php:1864
+msgid "With Layer slides, you can create beautiful, stylish layers of different elements."
+msgstr ""
+
+#: ml-slider.php:1868
+msgid "You start with an image and then can add text, video, colors, animations, more images, and even shortcodes."
+msgstr ""
+
+#: ml-slider.php:1874
+#: ml-slider.php:1915
+#: ml-slider.php:1956
+#: ml-slider.php:1999
+#: ml-slider.php:2042
+#: ml-slider.php:2085
+#: ml-slider.php:2128
+#: admin/assets/dist/js/app.js:2
+msgid "Find out more about MetaSlider Pro"
+msgstr ""
+
+#: ml-slider.php:1903
+msgid "Create slideshows with your Vimeo videos"
+msgstr ""
+
+#: ml-slider.php:1907
+msgid "With Vimeo slides, you can build beautiful slideshows with your Vimeo videos."
+msgstr ""
+
+#: ml-slider.php:1911
+msgid "Vimeo slides will display your videos with auto play, mute, the ability to hide controls, and much more."
+msgstr ""
+
+#: ml-slider.php:1944
+msgid "Create slideshows with your YouTube videos"
+msgstr ""
+
+#: ml-slider.php:1948
+msgid "With YouTube slides, you can build beautiful slideshows with your YouTube videos."
+msgstr ""
+
+#: ml-slider.php:1952
+msgid "YouTube slides will display your videos with auto play, mute, lazy load, the ability to hide controls, and much more."
+msgstr ""
+
+#: ml-slider.php:1985
+msgid "Create slideshows with your posts"
+msgstr ""
+
+#: ml-slider.php:1989
+msgid "With Post Feed slides, you can build slideshows with your latest posts, events, or WooCommerce products."
+msgstr ""
+
+#: ml-slider.php:1993
+msgid "Post Feed slides will automatically display your posts with images, text, custom fields, and much more."
+msgstr ""
+
+#: ml-slider.php:2028
+msgid "Create slideshows with images stored outside of WordPress"
+msgstr ""
+
+#: ml-slider.php:2032
+msgid "With External URL slides, you can load images directly from non-WordPress sources such as CDNs or image hosts."
+msgstr ""
+
+#: ml-slider.php:2036
+msgid "External URL slides give you all the power of MetaSlider, using images stored anywhere you want."
+msgstr ""
+
+#: ml-slider.php:2071
+msgid "Create slideshows with videos in your media library"
+msgstr ""
+
+#: ml-slider.php:2075
+msgid "With Local Video slides, you can build beautiful slideshows with videos in your WordPress media library."
+msgstr ""
+
+#: ml-slider.php:2079
+msgid "Local Video slides will display your MP4, WebM, and MOV videos with cover images, auto play, mute, lazy load, the ability to hide controls, and much more."
+msgstr ""
+
+#: ml-slider.php:2114
+msgid "Create slideshows with videos stored outside of WordPress"
+msgstr ""
+
+#: ml-slider.php:2118
+msgid "With External Video slides, you can add videos directly from non-WordPress sources."
+msgstr ""
+
+#: ml-slider.php:2122
+msgid "External Video Slides will display your MP4, WebM, and MOV videos. Features include text captions, cover images, auto play, mute, lazy load, the ability to hide controls, and much more."
+msgstr ""
+
+#: ml-slider.php:2165
+msgid "Premium Support"
+msgstr ""
+
+#: ml-slider.php:2171
+msgid "MetaSlider Pro"
+msgstr ""
+
+#: ml-slider.php:2175
+msgid "Support"
+msgstr ""
+
+#: ml-slider.php:2180
+msgid "Documentation"
+msgstr ""
+
+#: ml-slider.php:2184
+msgid "Leave a review"
+msgstr ""
+
+#: themes/manifest-legacy.php:15
+#: themes/manifest.php:15
+msgid "A simple, slick square design that looks good on darker images."
+msgstr ""
+
+#: themes/manifest-legacy.php:24
+#: themes/manifest.php:24
+msgid "A clean, subtle theme that features block arrows and bold design."
+msgstr ""
+
+#: themes/manifest-legacy.php:33
+#: themes/manifest.php:33
+msgid "A fun, circular design to brighten up your site. This theme works well with dark images"
+msgstr ""
+
+#: themes/manifest-legacy.php:42
+#: themes/manifest.php:42
+msgid "A minimalistic, no-frills design that was built to blend in with most themes."
+msgstr ""
+
+#: themes/manifest-legacy.php:74
+#: themes/manifest.php:74
+msgid "This theme places the controls vertically for a unique look."
+msgstr ""
+
+#: themes/manifest-legacy.php:83
+#: themes/manifest.php:83
+msgid "A futuristic and linear design that goes will with a dark background."
+msgstr ""
+
+#: themes/manifest-legacy.php:92
+#: themes/manifest.php:92
+msgid "A simple theme that neatly blends into any existing website."
+msgstr ""
+
+#: themes/manifest-legacy.php:101
+#: themes/manifest.php:101
+msgid "This theme has a special additional functionality that uses image titles as the slide navigation. "
+msgstr ""
+
+#: themes/manifest-legacy.php:102
+#: themes/manifest.php:102
+msgid "If you would like to use the image titles as the navigation, you will need to use FlexSlider. Additionally, to change the slide navigation label, edit the image title in the media library or manually on the slide (SEO tab)."
+msgstr ""
+
+#: themes/manifest-legacy.php:132
+#: themes/manifest.php:132
+msgid "This theme has a unique design that gives it a sophisticated look."
+msgstr ""
+
+#: themes/manifest-legacy.php:141
+#: themes/manifest.php:141
+msgid "A bold and clear design that works well on a darker images."
+msgstr ""
+
+#: themes/manifest-legacy.php:150
+#: themes/manifest.php:150
+msgid "A minimalist theme that gets out of the way so you can showcasing your beautiful pictures."
+msgstr ""
+
+#: themes/manifest-legacy.php:159
+msgid "The Nivo Light theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr ""
+
+#: themes/manifest-legacy.php:167
+msgid "The Nivo Bar theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr ""
+
+#: themes/manifest-legacy.php:175
+msgid "The Nivo Dark theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr ""
+
+#: themes/simply-dark/v1.0.0/theme.php:24
+msgid "Previous Slide"
+msgstr ""
+
+#: themes/simply-dark/v1.0.0/theme.php:26
+msgid "Next Slide"
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:79
+msgid "Preparing 1 slide..."
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:152
+#: admin/assets/js/admin.js:948
+msgid "1 slide added successfully"
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:201
+msgid "Opening add slide UI..."
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:204
+msgid "Closing add slide UI..."
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:293
+msgid "Updating slide..."
+msgstr ""
+
+#: admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:344
+msgid "Slide updated successfully"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "CSS Manager notice opened"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "CSS Manager notice closed"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "CSS Manager"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Easily add custom CSS to your slideshows to create the perfect design for your sites."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Built-in text editor full of features."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Loads only on the front-end where needed."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Includes recipes to solve common scenarios."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Analytics notice opened"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Analytics notice closed"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "We'd also like to send you infrequent emails with important security and feature updates. See our %s for more details."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "privacy policy"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Thanks for using MetaSlider"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "We are currently building the next version of MetaSlider. Can you help us out by sharing non-sensitive diagnostic information?"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Agree and continue"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No thanks"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Duplicating..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "To edit this slide, click \"Restore\" and then \"Return to Published Slides\""
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "MetaSlider dashboard loaded"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Saving..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Saving %s slides. This may take a few moments."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshow saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Duplicated successfully. Reloading..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Settings saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Still working... %s slides remaining..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Tour cancelled successfully"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Tour cancelled unsuccessfully"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "This slideshow will be moved to the \"Trash\" area."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Confirm"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Something went wrong"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "OK"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Preparing slideshow for duplication..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:88
+msgid "Doing something..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:96
+msgid "No error message provided."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:113
+msgid "Undefined error occurred"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/app/globals.js:169
+msgid "No error message reported."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Saving theme..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Theme saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshow Theme"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "This theme is not officially supported by the slider you chose. Your results might vary."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Custom theme"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Click to edit or update"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Remove"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Change"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Change the look and feel of your slideshow with one of our custom-built MetaSlider themes!"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select a custom theme"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Themes"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Theme Details"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Theme Instructions"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Tags"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "How To Use"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select a theme on the left to use on this slideshow. Click the theme for more details."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "If no theme is selected we will use the default theme provided by the slider plugin"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Loading..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Error: No themes were found."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "However, it looks like you have custom themes available. Select \"My Custom Themes\" from the navigation up top to view your custom themes."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "My Custom Themes"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Get MetaSlider Pro!"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Upgrade now to build your own custom themes!"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "MetaSlider Pro is installed!"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You can create your own themes with our theme editor"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Get started"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "On the left are themes that you have created in the theme editor."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Preview slideshow"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Toggle overlay type"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Toggle full width"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Exit preview"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "This feature is not fully supported in this browser."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Media caption"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Media description"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Manual entry"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Automatically updates directly from the WP Media Library"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No default was found"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You may use HTML here"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Filter by type"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "All media items"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Search Unsplash API"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Search unsplash.com..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Load more"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Photo by %s on Unsplash"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Photo on Unsplash"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Opening Unsplash tab..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Unsplash tab closed"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No photots found."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Photo by %s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Deselect"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Attachment Details"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgctxt "1000 by 1000 pixels"
+msgid "%s by %s pixels"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "view original"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Profile"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Portfolio"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Alt Text"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Description"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Quality"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "All photos published on Unsplash can be used for free."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "view license"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Complete!"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Crunching..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Import Slides"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Import slides"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You currently do not have any slides to preview. If you want, we can import some image slides for you."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No valid files found"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Drag and drop interface not available."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Drop images here"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Press %s to save or %s to cancel."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgctxt "The ENTER key on a keyboard"
+msgid "Enter"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgctxt "The ESCAPE key on a keyboard"
+msgid "Escape"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Shortcode copied"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Shortcode unable to be copied automatically"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Failed to open utility modal..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Opening utility modal..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Closing utility modal..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No slides"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Current"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgctxt "number of slides, ex \"7 slides\""
+msgid "%s slides"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "last updated: %s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Viewing 1 slideshow"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Viewing %s out of %s slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Search slideshows (Press ctrl + / to focus)‎"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Searching slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "1 slideshow"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Viewing %s out of %s slideshows (%s loaded)"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Indexing %s slideshows into local storage..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "All Slideshows loaded"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Fetching slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Finished"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Indexing slideshows... %s remaining"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "This feature is not fully supported in Internet Explorer 11 and you may experience slow search result times."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Sort by title"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Sort by modified date"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Filter slideshows‎"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Searching..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Updating..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Load all"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Clear cache"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Load remaining %s slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Press to clear the slideshow cache from your web browser"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Loading slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Browse slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Collapse"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Press to expand"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Copy all"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "All settings saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Here you will find documentation, and two support tiers to choose from. Additionally, you may supply us with extra information specific to your website, server, etc."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Documentation 📚"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Check out our documentation page for examples, and more information about what you can do with MetaSlider."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Visit documentation"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Free Basic Support 🚀"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "For users of the free version of MetaSlider, we offer full free support on the wordpress.org forums."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Visit wordpress.org"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Paid Premium Support 🌟"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Paid users of the premium plugin can open a ticket on our private support center to receive personalized support and faster response times."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Visit metaslider.com"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Site Information"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "For your convenience, you can copy the basic site information before to help us speed up the debugging process. Be sure to verify that no personal information is included that you might want to keep private."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Change the default title that will be used when creating a new slideshow. Use %s and it will be replaced by the current slideshow ID."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "If you are a pro member, enter your license key here to receive updates. %s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Upgrade here"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Opt-in to let MetaSlider responsibly collect information about how you use our plugin. This is disabled by default, but may have been enabled by via a notification. %s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "View our detailed privacy policy"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshow settings saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Global settings saved"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshow Defaults"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Update default settings used when creating a new slideshow."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Default Slideshow Title"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Change the default title"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Base Image Width"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Update the default width for the base image. This will be used for the slideshow dimensions and base image cropping."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Change the default width"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Base Image Height"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Update the default height for the base image. This will be used for the base image cropping and slideshow dimensions. If set to 100% width, the height will scale accordingly."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "100% Width"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "While the width and height defined above will be used for cropping (if enabled) and the base slideshow dimensions, you may also set the slideshow to stretch to its container."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Global Settings"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Here you will find general account settings and options related to your account"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "License Key"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Update license key"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Help Improve MetaSlider"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Enable Mobile Settings (Beta)"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Add option to hide slides and captions per screen size."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Mobile Settings"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Set breakpoints for different screen sizes"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Disable Legacy Libraries (Beta)"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "This setting allows you to disable the legacy slideshow libraries: Nivo Slider, Coin Slider, and Responsive Slides"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You can safely enable this setting. None of your slideshows use the legacy libraries."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You currently have %s slideshows that use legacy libraries."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You currently have %s slideshow that uses legacy libraries."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Enable MetaSlider on Admin Bar"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Add and edit slideshows easier by showing MetaSlider on your admin bar."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Enable Frontend Edit Links"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Edit slideshows easily by showing MetaSlider link under each slideshow."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Last"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "First"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "New slides order"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select the position for new added slides."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "The data in this file does not appear to be valid."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Found %s slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Image search complete"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "We are still searching for your images. Please wait."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You have no slideshows to import"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Some images are missing"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "When images are missing you will have to manually update or delete the slide after the import completes."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Continue"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Importing %s slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Import successful"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Easily import slideshows generated by MetaSlider. This requires a file generated from the Export tab."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Load slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "If you have an export file, you may upload it here to be processed. Information about each slideshow will be presented below. You will be able to confirm before importing."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Importing..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Processing..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Upload file"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Date: %s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Version: v%s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "All images required to import are accounted for."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "The following images were not found:"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No image name provided"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Note: You can still import slideshows that contain missing images. You will just need to manually update or delete these slides from their individual slideshow edit pages."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Import %s slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select the slideshows you wish to import below, then press here to import them."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Post Feed slide"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "External slide"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Image not found<br>%s"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "No slides found"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Loading %s slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You have no slideshows to export"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Exporting %s slideshows..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Export successful"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+#: admin/assets/js/gutenberg/components/block-edit.js:114
+msgid "No slideshows found."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Create a new slideshow now"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "If you have only a few slideshows, we will prepare them automatically. If you have many slideshows, click the \"Load\" button."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Choose the slideshows you wish to export."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Click the \"Export\" button."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "A .json file will automatically be downloaded with all your slideshow data."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "A few notes on exporting slideshow images:"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Your images need to be exported manually. Please upload them to the new website before importing these slideshows."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Images will need to keep the same file names on the new site."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Read our guide on exporting images."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "You have %s slideshows that can be exported. Information about each slideshow will be presented below."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Refresh"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Load"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Export %s slideshows"
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Select the slideshows you wish to export below, then press here to export them."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Failed to open the settings page..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Opening settings page..."
+msgstr ""
+
+#: admin/assets/dist/js/app.js:2
+msgid "Page not found: %s"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:12
+msgid "Add a slide"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:13
+msgid "Thanks for using MetaSlider. To get started, click the \"Add Slide\" button to create your first slide."
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:19
+msgid "Select images"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:20
+msgid "You can easily add an image from one of the options here. Additionally we provide free images from the Unsplash library."
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:29
+msgid "Next step"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:38
+msgid "Search unsplash"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:39
+msgid "Choose an image from the left, or search for any topic here to bring up more images."
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:44
+msgid "Hide step"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:53
+msgid "Create your slide"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:54
+msgid "After you have selected an image, press here to create your slide."
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:67
+msgid "Preview Slideshow"
+msgstr ""
+
+#: admin/assets/js/app/tour/main.js:68
+msgid "Now that you have some slides set, you can preview your slideshow by pressing here."
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:47
+msgid "Slideshow settings"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:55
+msgid "Edit slideshow"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:72
+msgid "Additional CSS Class"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:93
+msgid "Refresh preview"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:107
+msgid "Loading slideshows list..."
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/block-edit.js:115
+msgid "Create one now!"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/preview.js:171
+msgid "Loading slideshow"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/refresh-button.js:35
+msgid "Update preview"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/slideshow-selector.js:26
+#: admin/assets/js/gutenberg/components/slideshow-selector.js:29
+msgid "Select a slideshow"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/stretch-toolbar.js:15
+msgid "Normal width"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/stretch-toolbar.js:19
+msgid "Wide width"
+msgstr ""
+
+#: admin/assets/js/gutenberg/components/stretch-toolbar.js:23
+msgid "Full width"
+msgstr ""
+
+#: admin/assets/js/gutenberg/editor-block.js:79
+msgid "Use MetaSlider to insert slideshows and sliders in your page"
+msgstr ""
+
+#: admin/assets/js/gutenberg/editor-block.js:82
+msgid "slider"
+msgstr ""
+
+#: admin/assets/js/gutenberg/editor-block.js:82
+msgid "slideshow"
+msgstr ""
+
+#: admin/assets/js/gutenberg/editor-block.js:82
+msgid "gallery"
+msgstr ""

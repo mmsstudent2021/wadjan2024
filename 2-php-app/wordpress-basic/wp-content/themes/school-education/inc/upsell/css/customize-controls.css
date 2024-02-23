@@ -1,0 +1,27 @@
+.control-section-school-education h3.accordion-section-title {
+  line-height: 30px;
+}
+#customize-theme-controls .control-panel-themes>.accordion-section-title, 
+#customize-theme-controls .control-panel-themes>.accordion-section-title:hover{
+  margin: 0;
+}
+.control-section-school-education h3.accordion-section-title a{
+  float: right;
+}
+li#customize-control-school_education_phone button,li#customize-control-school_education_opening_time button  {
+    display: none;
+}
+#accordion-section-school_education_upgrade_pro h3 a{
+  background: #6621ba;
+  border-color: #6621ba;
+  outline-color:#6621ba !important;
+}
+#accordion-section-school_education_upgrade_pro h3 {
+  color: #50575e !important;
+  background-color: #fff !important;
+}
+#accordion-section-school_education_upgrade_pro h3 a:hover{
+  background: #121212;
+  border-color: #121212;
+  outline-color:#121212 !important;
+}

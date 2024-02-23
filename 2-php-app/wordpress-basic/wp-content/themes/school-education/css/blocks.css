@@ -1,0 +1,386 @@
+/*
+Theme Name: School Education
+Description: Used to style blocks.
+*/
+
+/* Colors */
+.has-black-color {
+    color: #121212;
+}
+
+.has-black-background-color {
+    background-color: #121212;
+}
+
+.has-white-color {
+    color: #ffffff;
+}
+
+.has-white-background-color {
+    background-color: #ffffff;
+}
+
+.has-gray-color {
+    color: #727272;
+}
+
+.has-gray-background-color {
+    background-color: #727272;
+}
+
+.has-blue-color {
+    color: #6621ba;
+}
+
+.has-blue-background-color {
+    background-color: #6621ba;
+}
+
+.has-navy-blue-color {
+    color: #6621ba;
+}
+
+.has-navy-blue-background-color {
+    background-color: #6621ba;
+}
+
+.has-light-blue-color {
+    color: #f7fcfe;
+}
+
+.has-light-blue-background-color {
+    background-color: #f7fcfe;
+}
+
+.has-orange-color {
+    color: #121212;
+}
+
+.has-orange-background-color {
+    background-color: #121212;
+}
+
+.has-green-color {
+    color: #77a464;
+}
+
+.has-green-background-color {
+    background-color: #77a464;
+}
+
+.has-red-color {
+    color: #e4572e;
+}
+
+.has-red-background-color {
+    background-color: #e4572e;
+}
+
+.has-yellow-color {
+    color: #f4a024;
+}
+
+.has-yellow-background-color {
+    background-color: #f4a024;
+}
+
+/* Custom Typography Preset */
+
+.has-small-font-size {
+  font-size: 13px;
+}
+
+.has-normal-font-size {
+  font-size: 14px;
+}
+
+.has-large-font-size {
+  font-size: 30px;
+}
+
+.has-huge-font-size {
+  font-size: 36px;
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media only screen and (max-width:1023px) {
+    .has-large-font-size {
+      font-size: 28px;
+    }
+
+    .has-huge-font-size {
+      font-size: 32px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px) {
+    .has-large-font-size {
+      font-size: 25px;
+    }
+
+    .has-huge-font-size {
+      font-size: 30px;
+    }
+}
+
+
+/* HTML Elements */
+hr.wp-block-separator {
+    background: none;
+    border-bottom-width: 1px;
+}
+
+p.has-drop-cap:not(:focus)::first-letter {
+    font-size: 5em;
+    margin-top: 0.075em;
+}
+
+/* Gallery */
+
+.wp-block-gallery {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.entry-content ul.wp-block-gallery {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.wp-block-gallery.alignleft,
+.wp-block-gallery.alignnone,
+.wp-block-gallery.aligncenter,
+.wp-block-gallery.alignright {
+    display: flex;
+}
+
+.wp-block-gallery figcaption {
+    font-style: italic;
+}
+
+.entry-content .blocks-gallery-grid {
+    padding-left: 0;
+}
+
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+    font-style: italic;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+/* Media */
+
+.wp-block-image,
+.wp-block-cover {
+    margin-bottom: 1.5em;
+}
+
+.wp-block-image figure {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.wp-block-image figure.alignleft {
+    margin-right: 1.5em;
+}
+
+.wp-block-image figure.alignright {
+    margin-left: 1.5em;
+}
+
+.wp-block-audio audio {
+    display: block;
+    width: 100%;
+}
+
+.wp-block-cover-image.alignright,
+.wp-block-cover.alignright,
+.wp-block-cover-image.alignleft,
+.wp-block-cover.alignleft,
+.wp-block-cover-image.aligncenter,
+.wp-block-cover.aligncenter {
+    display: flex;
+}
+
+
+/* Button */
+
+.wp-block-button .wp-block-button__link {
+    border-radius: 0;
+    cursor: pointer;
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    vertical-align: baseline;
+}
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    border: solid 2px #6621ba !important;
+    color: #6621ba !important;
+}
+
+a.wp-block-button__link {
+    border-radius: 30px !important;
+}
+
+.wp-block-button.is-style-squared a.wp-block-button__link {
+    border-radius: 0 !important;
+}
+
+.entry-content .wp-block-button:not(.is-style-outline) .wp-block-button__link {
+    border: 0;
+}
+
+.entry-content .wp-block-button.is-style-outline .wp-block-button__link:hover,
+.entry-content .wp-block-button.is-style-outline .wp-block-button__link:focus {
+    border: 2px solid;
+}
+
+.wp-block-button__link {
+    background: #6621ba;
+    color: #fff;
+}
+
+.is-style-outline .wp-block-button__link:not(.has-text-color) {
+    color: #6621ba;
+}
+
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* pullquote and Blockquote */
+.wp-block-quote:before,
+.wp-block-pullquote blockquote:before {
+    display: none;
+}
+
+.wp-block-quote,
+.wp-block-pullquote blockquote {
+    margin: 0 0 15px 0;
+    position: relative;
+}
+
+.wp-block-pullquote blockquote {
+    margin: 0;
+}
+
+.wp-block-quote {
+    border-left: 5px solid #6621ba;
+}
+
+.wp-block-quote.has-text-align-right:not(.is-style-large) {
+    border-right: 5px solid #6621ba;
+}
+
+.wp-block-quote.is-style-large {
+    background-color: #eee;
+    padding: 1.6em;
+}
+
+.wp-block-pullquote.is-style-solid-color {
+    padding: 0;
+}
+
+.wp-block-pullquote {
+    border-top: 5px solid #6621ba;
+    border-bottom: 5px solid #6621ba;
+    clear: both;
+    padding: 1.6em;
+}
+
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright {
+    clear: none;
+    margin-top: 15px;
+}
+
+.wp-block-pullquote p {
+    color: inherit;
+}
+
+.wp-block-pullquote blockquote {
+    border: 0;
+    padding: 0;
+}
+
+.wp-block-pullquote.is-style-solid-color {
+    padding: 1.6em;
+}
+
+.wp-block-pullquote.is-style-solid-color:not(.has-background) {
+    background: #6621ba;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote {
+    border: none;
+    max-width: 100%;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote cite {
+    text-transform: none;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote:not(.has-text-color) cite {
+    color: #fff;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote:not(.has-text-color) {
+    color: #fff;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote:not(.has-text-color) p {
+    color: #fff;
+}
+
+/* Widget Area */
+
+.sidebar .wp-block-group h2 {
+    border-bottom: 1px solid #e7ecef;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#footer-widgets .wp-block-group h2 {
+    color: #dddddd;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.sidebar .wp-block-group .school_education_widget_social,
+#footer-widgets .wp-block-group .school_education_widget_social {
+    margin-top: 0;
+}
+
+.sidebar .wp-block-group .widget {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.widget .wp-block-tag-cloud a {
+    border: 1px solid #dddddd;
+    color: #001837;
+    display: inline-block;
+    font-size: 16px !important;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+}
+
+.widget .wp-block-tag-cloud a:hover {
+    border: 1px solid #6621ba;
+    color: #6621ba;
+}

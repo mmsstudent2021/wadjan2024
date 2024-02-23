@@ -1,0 +1,242 @@
+/*
+Theme Name: School Education
+Description: Used to style blocks in the editor.
+*/
+
+/* General Typography */
+.editor-styles-wrapper > * {
+	font-family: "Roboto", sans-serif;
+    color: #727272;
+}
+
+.editor-styles-wrapper > *,
+.editor-styles-wrapper p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: "Tahoma",Geneva,sans-serif;
+    font-size: 25px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #222222;
+	margin-bottom: 20px;
+	padding-bottom: 0;
+}
+
+.editor-styles-wrapper .wp-block {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	font-family: 'Tahoma', Geneva, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #222222;
+}
+
+.editor-styles-wrapper h1 {
+	font-size: 30px;
+}
+
+.editor-styles-wrapper h2 {
+	font-size: 22px;
+}
+
+.editor-styles-wrapper h3 {
+	font-size: 20px;
+}
+
+.editor-styles-wrapper h4 {
+	font-size: 18px;
+}
+
+.editor-styles-wrapper h5 {
+	font-size: 16px;
+}
+
+.editor-styles-wrapper h6 {
+	font-size: 14px;
+}
+
+/* Button */
+
+.wp-block-button .wp-block-button__link {
+	border-radius: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+	vertical-align: baseline;
+}
+
+.wp-block-button__link {
+    background: #6621ba;
+    color: #fff;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+	color: #6621ba;
+}
+
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
+.is-style-outline > .wp-block-button__link:hover,
+.wp-block-button__link.is-style-outline:focus {
+	background-color: #121212;
+	color: #fff;
+}
+
+/* General Block Styles */
+
+.editor-styles-wrapper {
+	max-width: 100% !important; /* Override where editor-style.css is affecting this */
+}
+
+.wp-block {
+	max-width: 771px;
+}
+
+/* Link styles */
+
+.edit-post-visual-editor a,
+.editor-block-list__block a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+	color: #6621ba;
+}
+
+/* List styles */
+.block-editor-block-list__block .wp-block-gallery .blocks-gallery-grid {
+	margin-left: 0;
+}
+
+.rtl .edit-post-visual-editor ul:not(.wp-block-gallery),
+.rtl .editor-block-list__block ul:not(.wp-block-gallery),
+.rtl .block-library-list ul,
+.rtl .edit-post-visual-editor ol,
+.rtl .editor-block-list__block ol,
+.rtl .block-library-list ol {
+	margin-left: 0;
+	margin-right: 20px;
+	padding: 0;
+}
+
+.rtl .block-editor-block-list__block .wp-block-gallery .blocks-gallery-grid {
+	margin-right: 0;
+}
+
+.edit-post-visual-editor ul:not(.wp-block-gallery),
+.editor-block-list__block ul:not(.wp-block-gallery),
+.block-library-list ul {
+	list-style: disc;
+}
+
+.edit-post-visual-editor ol,
+.editor-block-list__block ol,
+.block-library-list ol {
+	list-style: decimal;
+}
+
+
+/* Captions */
+
+[class^="wp-block-"] figcaption {
+	font-size: 13px;
+	color: #555d66;
+	font-style: italic;
+	text-align: left;
+}
+
+.rtl [class^="wp-block-"] figcaption {
+	text-align: right;
+}
+
+/* Blockquote */
+
+.wp-block-quote {
+	border-left: 5px solid #6621ba;
+}
+
+.wp-block-quote.has-text-align-right:not(.is-style-large) {
+    border-right: 5px solid #6621ba;
+}
+
+.wp-block-quote.is-style-large {
+    background-color: #eee;
+    padding: 1.6em;
+}
+
+.wp-block-quote.is-style-large cite {
+    text-align: left;
+}
+
+.wp-block-quote.is-style-large.has-text-align-right cite {
+	text-align: right;
+}
+
+.wp-block-quote.is-style-large.has-text-align-center cite {
+	text-align: center;
+}
+
+.wp-block-quote.is-style-large p {
+    font-size: 1.5em;
+	line-height: 1.6;
+}
+
+.wp-block-quote.is-style-large cite {
+	font-size: 1.125em;
+}
+
+.wp-block-pullquote {
+    border-top: 5px solid #6621ba;
+    border-bottom: 5px solid #6621ba;
+    padding: 1.6em;
+}
+
+.wp-block-pullquote blockquote {
+	margin:  0;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote {
+	max-width: 100%;
+	margin: 0;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote p {
+	font-size: 2em;
+}
+
+.wp-block-pullquote.is-style-solid-color .wp-block-pullquote__citation {
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.wp-block-pullquote.is-style-solid-color:not(.has-background) {
+	background-color: #6621ba;
+	color: #fff;
+}
+
+.wp-block-pullquote {
+	clear: both;
+}
+
+.wp-block[data-align="left"] .wp-block-pullquote,
+.wp-block[data-align="right"] .wp-block-pullquote {
+	clear: none;
+	max-width: 420px;
+}
+
+.wp-block-preformatted {
+	background-color: #eee;
+	padding: 1.6em;
+    font-size: 15px;
+    font-size: 0.9375rem;
+}

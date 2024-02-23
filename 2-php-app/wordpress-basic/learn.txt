@@ -1,0 +1,25 @@
+Wordpress Feature List
+======================
+1. Authentication Feature
+    1.1 Register ( Setup )
+    1.2 Login 
+
+2. Admin Dashboard (control website) 
+
+3. Post Management
+    3.1 Create Post
+    3.2 Post List
+    3.3 Edit Post -> Update
+    3.4 Delete Post (Soft delete)
+    3.5 Restore Post
+    3.6 View Post
+
+4. Page Management
+
+5. Comment Management
+
+6. Theme Management
+
+7. 
+
+
