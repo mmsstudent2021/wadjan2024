@@ -2,13 +2,13 @@
 
 echo "<pre>";
 
-$conn = mysqli_connect("localhost", "hhz", "asdffdsa");
+$conn = mysqli_connect("localhost", "hhz", "asdffdsa","wad_shop");
 
 if(!$conn){
-    echo mysqli_connect_errno();
+    die(mysqli_connect_errno());
 }
 
-die();
+
 
 // print_r($_POST);
 
@@ -20,4 +20,12 @@ $stock = $_POST["stock"];
 
 $sql = "INSERT INTO products (name,price,stock) VALUES ('$name',$price,$stock)";
 
-echo $sql;
+$query = mysqli_query($conn,$sql); // working stage
+
+if($query){
+    header("Location:index.php");
+}
+
+// var_dump($query);
+
+// echo $sql;
