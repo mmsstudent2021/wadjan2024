@@ -1,12 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "hhz", "asdffdsa", "wad_shop");
-
-if (!$conn) {
-    die(mysqli_connect_errno());
-}
-
+require_once "./db_connect.php";
 
 $id = $_GET["row_id"];
 
@@ -21,5 +16,5 @@ $query = mysqli_query($conn, $sql);
 
 
 if ($query) {
-    header("Location:index.php");
+    header("Location:product-create-list.php");
 }

@@ -1,11 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "hhz", "asdffdsa", "wad_shop");
-
-if (!$conn) {
-    die(mysqli_connect_errno());
-}
+require_once "./db_connect.php";
 
 
 
@@ -22,5 +18,5 @@ $sql = "UPDATE products SET name='$name',price=$price,stock=$stock WHERE id=$id"
 $query = mysqli_query($conn,$sql);
 
 if($query){
-    header("Location:index.php");
+    header("Location:product-create-list.php");
 }

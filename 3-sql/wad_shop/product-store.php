@@ -1,12 +1,6 @@
 <?php
 
-echo "<pre>";
-
-$conn = mysqli_connect("localhost", "hhz", "asdffdsa","wad_shop");
-
-if(!$conn){
-    die(mysqli_connect_errno());
-}
+require_once "./db_connect.php";
 
 
 
@@ -23,7 +17,7 @@ $sql = "INSERT INTO products (name,price,stock) VALUES ('$name',$price,$stock)";
 $query = mysqli_query($conn,$sql); // working stage
 
 if($query){
-    header("Location:index.php");
+    header("Location:product-create-list.php");
 }
 
 // var_dump($query);
