@@ -83,7 +83,7 @@
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200">
                                         <?= date("d M Y", strtotime($row['created_at'])) ?>
                                         <br>
-                                        <?= date("h : i A", strtotime($row['created_at'])) ?>
+                                        <?= date("h : m A", strtotime($row['created_at'])) ?>
                                     </td>
 
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200">

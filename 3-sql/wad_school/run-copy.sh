@@ -1,5 +1,7 @@
-cp product-create-list.php batch-create-list.php
-cp product-delete.php batch-delete.php
-cp product-edit.php batch-edit.php
-cp product-store.php batch-store.php
-cp product-update.php batch-update.php
+cp batch-list.php student-list.php
+cp batch-create.php student-create.php
+cp batch-delete.php student-delete.php
+cp batch-edit.php student-edit.php
+cp batch-store.php student-store.php
+cp batch-update.php student-update.php
+
