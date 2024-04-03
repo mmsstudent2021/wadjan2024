@@ -36,20 +36,19 @@ CREATE TABLE `batches` (
   `end_time` time NOT NULL,
   `is_register_open` tinyint(1) NOT NULL,
   `student_limit` int NOT NULL DEFAULT '20',
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `batches`
 --
 
-INSERT INTO `batches` (`id`, `name`, `course_id`, `start_date`, `start_time`, `end_time`, `is_register_open`, `student_limit`, `created_at`, `updated_at`) VALUES
-(1, 'SWD JAN 2024', 3, '2024-01-27', '15:00:00', '17:00:00', 0, 45, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(2, 'WAD FEB 2024', 4, '2024-02-07', '13:00:00', '15:00:00', 0, 30, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(3, 'SWD MAR 2024', 3, '2024-03-23', '13:00:00', '15:00:00', 1, 70, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(4, 'SWD APR 2024', 3, '2024-04-05', '09:00:00', '11:00:00', 1, 25, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(5, 'PUD APR 2024', 5, '2024-04-05', '09:00:00', '11:00:00', 1, 25, '2024-03-19 03:33:17', '2024-03-19 03:33:17');
+INSERT INTO `batches` (`id`, `name`, `course_id`, `start_date`, `start_time`, `end_time`, `is_register_open`, `student_limit`, `created_at`) VALUES
+(1, 'SWD JAN 2024', 3, '2024-01-27', '15:00:00', '17:00:00', 0, 45, '2024-03-19 03:33:17'),
+(2, 'WAD FEB 2024', 4, '2024-02-07', '13:00:00', '15:00:00', 0, 30, '2024-03-19 03:33:17'),
+(3, 'SWD MAR 2024', 3, '2024-03-23', '13:00:00', '15:00:00', 1, 70, '2024-03-19 03:33:17'),
+(4, 'SWD APR 2024', 3, '2024-04-05', '09:00:00', '11:00:00', 1, 25, '2024-03-19 03:33:17'),
+(5, 'PUD APR 2024', 5, '2024-04-05', '09:00:00', '11:00:00', 1, 25, '2024-03-19 03:33:17');
 
 -- --------------------------------------------------------
 
@@ -62,20 +61,19 @@ CREATE TABLE `courses` (
   `title` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `short` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `fee` int NOT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `courses`
 --
 
-INSERT INTO `courses` (`id`, `title`, `short`, `fee`, `created_at`, `updated_at`) VALUES
-(1, 'Web Development Foundation', 'WDF', 0, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(2, 'Basic UI Design', 'BUD', 80000, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(3, 'Special Web Design', 'SWD', 300000, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(4, 'Web Application Development', 'WAD', 300000, '2024-03-19 03:33:17', '2024-03-19 03:33:17'),
-(5, 'Premium UI Design', 'PUD', 300000, '2024-03-19 03:33:17', '2024-03-19 03:33:17');
+INSERT INTO `courses` (`id`, `title`, `short`, `fee`, `created_at`) VALUES
+(1, 'Web Development Foundation', 'WDF', 0, '2024-03-19 03:33:17'),
+(2, 'Basic UI Design', 'BUD', 80000, '2024-03-19 03:33:17'),
+(3, 'Special Web Design', 'SWD', 300000, '2024-03-19 03:33:17'),
+(4, 'Web Application Development', 'WAD', 300000, '2024-03-19 03:33:17'),
+(5, 'Premium UI Design', 'PUD', 300000, '2024-03-19 03:33:17');
 
 -- --------------------------------------------------------
 
