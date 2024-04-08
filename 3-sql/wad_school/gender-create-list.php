@@ -31,13 +31,15 @@
                             <tr>
                                 <th class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">#</th>
                                 <th class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">Type</th>
+                                <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Student Count</th>
                                 <th class="px-6 py-3 text-end  text-xs font-medium text-gray-500 uppercase">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
                             // sql statement
-                            $sql = "SELECT * FROM gender";
+                            // $sql = "SELECT * FROM gender";
+                            $sql = "SELECT *, (SELECT count(id) FROM students WHERE gender.id = students.gender_id) AS student_count FROM gender";
 
                             // run query
                             $query = mysqli_query($conn, $sql);
@@ -48,6 +50,7 @@
                                 <tr>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['id'] ?></td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['type'] ?></td>
+                                    <td class="px-6 py-4 text-end whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['student_count'] ?></td>
 
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200">
 

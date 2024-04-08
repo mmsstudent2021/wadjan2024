@@ -34,6 +34,8 @@
                                 <th class="px-6 py-3 text-start text-xs font-medium text-gray-500 uppercase">Title</th>
                                 <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Short</th>
                                 <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Fee</th>
+                                <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Batch Count</th>
+                                <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Student Count</th>
                                 <th class="px-6 py-3 text-end text-xs font-medium text-gray-500 uppercase">Create At</th>
                                 <th class="px-6 py-3 text-end  text-xs font-medium text-gray-500 uppercase">Action</th>
                             </tr>
@@ -41,7 +43,11 @@
                         <tbody>
                             <?php
                             // sql statement
-                            $sql = "SELECT * FROM courses";
+                            // $sql = "SELECT * FROM courses";
+                            $sql = "SELECT *,
+                            (SELECT count(id) FROM batches WHERE courses.id=batches.course_id) AS batch_count,
+                            (SELECT count(id) FROM enrollments WHERE enrollments.batch_id IN (SELECT id FROM batches WHERE courses.id=batches.course_id) ) AS student_count 
+                            FROM courses";
 
                             // run query
                             $query = mysqli_query($conn, $sql);
@@ -54,6 +60,8 @@
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['title'] ?></td>
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['short'] ?></td>
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['fee'] ?></td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['batch_count'] ?></td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200"><?= $row['student_count'] ?></td>
                                     <td class="px-6 py-4 whitespace-nowrap text-end text-sm font-medium text-gray-800 dark:text-gray-200">
                                         <?= date("d M Y", strtotime($row['created_at'])) ?>
                                         <br>

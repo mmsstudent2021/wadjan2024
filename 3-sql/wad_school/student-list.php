@@ -9,7 +9,7 @@
 
 
 // sql statement
-$sql = "SELECT *, students.id as student_id FROM students LEFT JOIN nationality ON nationality.id = students.nationality_id LEFT JOIN gender ON gender.id = students.gender_id ";
+$sql = "SELECT *, students.id as student_id FROM students LEFT JOIN nationality ON nationality.id = students.nationality_id LEFT JOIN gender ON gender.id = students.gender_id ORDER BY student_id DESC";
 
 $countSql = "SELECT count(id) as total_student FROM students";
 
@@ -61,7 +61,7 @@ $query = mysqli_query($conn, $sql);
 
 
         <li class="inline-flex items-center text-sm font-semibold text-gray-800 truncate dark:text-gray-200" aria-current="page">
-            Manage Batches
+            Manage Students
         </li>
     </ol>
 
