@@ -4,7 +4,7 @@
 class Db
 {
 
-    public $conn;
+    private $conn;
 
     function __construct()
     {
