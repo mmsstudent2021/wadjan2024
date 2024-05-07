@@ -5,8 +5,18 @@ echo "<pre>";
 
 require_once "./autoload.php";
 
-$course = new Course;
-print_r($course->select("*")->all());
+
+$request = new Request;
+echo $request->get();
+echo $request->post();
+echo $request->file();
+echo $request->files();
+echo $request->length();
+
+
+
+// $course = new Course;
+// print_r($course->select("*")->all());
 
 // $batch = new Batch;
 // print_r($batch->select("*")->all());
