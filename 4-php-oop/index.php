@@ -6,12 +6,25 @@ echo "<pre>";
 require_once "./autoload.php";
 
 
-$request = new Request;
-echo $request->get();
-echo $request->post();
-echo $request->file();
-echo $request->files();
-echo $request->length();
+
+function animalSound(Animal $animal)
+{
+    return $animal->makeSound();
+}
+
+$cat = new Cat;
+$dog = new Dog;
+
+echo animalSound($cat);
+echo animalSound($dog);
+
+
+// $request = new Request;
+// echo $request->get();
+// echo $request->post();
+// echo $request->file();
+// echo $request->files();
+// echo $request->length();
 
 
 
